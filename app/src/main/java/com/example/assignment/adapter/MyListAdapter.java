@@ -24,7 +24,7 @@ public class MyListAdapter extends ArrayAdapter<String> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        note = getItem(position);
+//        note = getItem(position);
 
         if(convertView == null)
         {
